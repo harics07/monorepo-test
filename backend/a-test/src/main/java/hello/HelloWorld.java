@@ -9,7 +9,7 @@ package hello.helloworld;
  *
  * @author acer
  */
-public class HellowWorld {
+public class HelloWorld {
 
     public static void main(String[] args) {
         System.out.println("This is Project A-Test");
