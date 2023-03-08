@@ -1,15 +1,17 @@
-package com.coveros.demo.helloworld;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+package hello.helloworld;
 
-public class HelloWorld {
+/**
+ *
+ * @author acer
+ */
+public class HellowWorld {
 
-  public static void main(final String[] args) {
-    final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
-    final LocalDateTime now = LocalDateTime.now();
-
-    System.out.println("Hello, World! The current time is " + dtf.format(now));
-  }
-
+    public static void main(String[] args) {
+        System.out.println("This is Project A-Test");
+    }
 }
