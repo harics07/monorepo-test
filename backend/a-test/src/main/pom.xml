@@ -7,6 +7,31 @@
   <version>1.0-SNAPSHOT</version>
   <name>JavaHelloWorld</name>
   <url>http://maven.apache.org</url>
+
+  <executions>
+    <execution>
+        <goals>
+            <goal>repackage</goal>
+        </goals>
+    </execution>
+  </executions>
+
+ <properties>
+    <start-class>hello.HelloWorld</start-class>
+ </properties>
+
+  <plugins> 
+    <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+            <mainClass>hello.HelloWorld</mainClass>
+            <layout>JAR</layout>
+        </configuration>
+    </plugin>
+  </plugins>
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
