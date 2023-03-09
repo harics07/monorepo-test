@@ -7,7 +7,7 @@ pipeline {
                  pwd
                  cd backend/b-test/src/main/
                  /opt/apache-maven-3.6.3/bin/mvn clean install -DskipTests
-                 cp target/a-test-0.1.0.jar /opt/projects/
+                 cp target/b-test-0.1.0.jar /opt/projects/
                  '''
               }
          }
